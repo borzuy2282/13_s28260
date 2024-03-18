@@ -1,5 +1,6 @@
+from abc import ABC
 #Task 6
-class SquareGenerator:
+class SquareGenerator(ABC):
     def list_square_creating(start, end):
 
         #Task 5
