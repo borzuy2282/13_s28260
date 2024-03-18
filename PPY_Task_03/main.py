@@ -1,5 +1,7 @@
 import math
-import square_generator as sg
+#Task 7
+from modules import square_generator as sg
+
 #Task 1
 list1 = [i ** 2 for i in range(1, 11)]
 
