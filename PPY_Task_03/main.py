@@ -18,7 +18,13 @@ print(list_square_creator(1, 11))
 
 class SquareGenerator:
     def list_square_creating(start, end):
-        return [i**2 for i in range(start, end)]
+
+        #Task 5
+        if start <= end:
+            return [i**2 for i in range(start, end)]
+        else:
+            print('Your start is greater than end!')
+            return []
 
 print(SquareGenerator.list_square_creating(1, 11))
 
