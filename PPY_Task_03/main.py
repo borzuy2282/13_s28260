@@ -38,4 +38,14 @@ for x in range(len(list4)):
     list4[x] = math.sqrt(list4[x])
 print(list4)
 
+#Task 8
+class CubicGenerator(sg.SquareGenerator):
+    def list_square_creating(start, end):
+        if start <= end:
+            return [i ** 3 for i in range(start, end)]
+        else:
+            print('Your start is greater than end!')
+            return []
+
+print(CubicGenerator.list_square_creating(1, 11))
 
