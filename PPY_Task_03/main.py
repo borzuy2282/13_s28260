@@ -23,10 +23,11 @@ print(list_square_creator(1, 11))
 #
 #         #Task 5
 #         if start <= end:
-#             return [i**2 for i in range(start, end)]
-#         else:
 #             print('Your start is greater than end!')
 #             return []
+#         else:
+#             return [i**2 for i in range(start, end)]
+#
 
 print(sg.SquareGenerator.list_square_creating(1, 11))
 
@@ -41,6 +42,7 @@ print(list4)
 #Task 8
 class CubicGenerator(sg.SquareGenerator):
     def list_square_creating(start, end):
+        #Task 9
         if start <= end:
             return [i ** 3 for i in range(start, end)]
         else:
